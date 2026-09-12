@@ -34,7 +34,7 @@ Every feature below — the drag-and-drop, the dark mode, the async storage — 
 
 ## 🚀 Try it live
 
-👉 **[Open the app](https://USERNAME.github.io/todo-list/)**
+👉 **[Open the app]https://mukarramzia52-sketch.github.io/TODO-LIST/
 
 ## 🛠️ Built with
 
