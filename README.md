@@ -4,7 +4,7 @@
 
 ### A clean, framework-free to-do app built to master the JavaScript fundamentals.
 
-[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-View_App-d97757?style=for-the-badge)](https://USERNAME.github.io/todo-list/)
+[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-View_App-d97757?style=for-the-badge)](https://mukarramzia52-sketch.github.io/TODO-LIST/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
@@ -34,7 +34,7 @@ Every feature below — the drag-and-drop, the dark mode, the async storage — 
 
 ## 🚀 Try it live
 
-👉 **[Open the app]https://mukarramzia52-sketch.github.io/TODO-LIST/
+👉 **[Open the app](https://mukarramzia52-sketch.github.io/TODO-LIST/)**
 
 ## 🛠️ Built with
 
@@ -47,8 +47,8 @@ No dependencies. No `npm install`. Just open `index.html` and go.
 ## 📦 Run it locally
 
 ```bash
-git clone https://github.com/USERNAME/todo-list.git
-cd todo-list
+git clone https://github.com/mukarramzia52-sketch/TODO-LIST.git
+cd TODO-LIST
 ```
 
 Then just open `index.html` in your browser.
