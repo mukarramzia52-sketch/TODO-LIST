@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- browser ko batata hai ye HTML5 hai -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /> <!-- text encoding set kiya -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- mobile ke liye responsive -->
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================
+       SECTION 1: THEME TOGGLE (dark / light mode)
+  =========================================================== -->
+  <div class="card">
+    <h3>THEME TOGGLE</h3>
+
+    <label class="switch">
+      <input id="toggle-input" type="checkbox">
+      <span class="slider"></span>
+    </label>
+
+    <p id="status-id">loading preferences...</p>
+    <p id="counter" class="taskcounter">0 tasks left</p>
+  </div>
+
+  <!-- ==========================================================
+       SECTION 2: SEARCH + FILTER
+  =========================================================== -->
+  <input
+    type="text"
+    id="searchInput"
+    class="searchInput"
+    placeholder="Search your tasks..."
+  >
+
+  <div class="filterbuttons">
+    <button class="filterbtn active" data-filter="all">All</button>
+    <button class="filterbtn" data-filter="complete">Completed</button>
+    <button class="filterbtn" data-filter="incomplete">Incomplete</button>
+  </div>
+
+  <!-- ==========================================================
+       SECTION 3: ADD / EDIT / DELETE TASKS
+  =========================================================== -->
+  <div class="wrapper">
+    <h3>MY TO-DO LIST</h3>
+
+    <form id="todoform">
+      <input id="todoinput" type="text" placeholder="What do you need to do?">
+      <button id="add-button" type="submit">ADD</button>
+    </form>
+
+    <p id="status-todo"></p>
+
+    <ul id="todolist">
+      <!-- tasks yahan JS se add honge -->
+    </ul>
+  </div>
+
+  <!-- ==========================================================
+       SECTION 4: IMPORT / EXPORT (backup your list)
+  =========================================================== -->
+  <div class="ioButtons">
+    <button type="button" id="exportBtn">Export</button> <!-- list ko file mein download karega -->
+    <button type="button" id="importBtn">Import</button> <!-- file choose karne wala box kholega -->
+    <input type="file" id="importFile" accept="application/json" hidden /> <!-- asli file-picker, chhupa hua hai -->
+  </div>
+
+  <script src="script.js"></script> <!-- JS file jodi -->
+</body>
+</html>
